@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+     <script src="code.js"></script>
+     <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <title>Web Ops</title>
+  </head>
+  <body>
+    <div class="header">
+   <div class="Buttons">
+     <img src="Assets/icon.jpg" id="pic" alt="">
+     <div class="live">
+      <input type="checkbox" id=checkbox onclick="toggleLive()" title="Live">Live</input>
+     </div>
+     <div class="run">
+       <input type="image" id="button" src= "Assets/run.png" title="Run" onclick="run()" value="Run"></input>
+     </div class="save">
+       <input type="image" id="save" src="Assets/save.png" title="Save" onclick="save()">Save</input>
+    </div>
+</div>
+
+
+
+    <div class="container">
+      <textarea id="html" placeholder="HTML"></textarea>
+      <textarea id="css" placeholder="CSS"></textarea>
+      <textarea id="javascript" placeholder="Javascript"></textarea>
+    </div>
+        <iframe class="result" id='outputbox'></iframe>
+
+  </body>
+</html>
